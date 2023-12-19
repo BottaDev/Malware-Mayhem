@@ -466,7 +466,7 @@ namespace AmplifyShaderEditor
 				{
 					if( end != null )
 						end();
-					Debug.LogException( ex );
+					//Debug.LogException( ex );
 					EditorApplication.update -= closureCallback;
 				}
 			};
